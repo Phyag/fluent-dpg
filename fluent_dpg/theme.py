@@ -285,7 +285,7 @@ class FluentTheme:
                 dpg.add_theme_color(dpg.mvThemeCol_TitleBg, self._hex_to_rgba(c.surface))
                 dpg.add_theme_color(dpg.mvThemeCol_TitleBgActive, self._hex_to_rgba(c.surface))
                 dpg.add_theme_color(dpg.mvThemeCol_TitleBgCollapsed, self._hex_to_rgba(c.fill_subtle))
-                dpg.add_theme_color(dpg.mvThemeCol_MenuBg, self._hex_to_rgba(c.surface))
+                dpg.add_theme_color(dpg.mvThemeCol_MenuBarBg, self._hex_to_rgba(c.surface))
                 dpg.add_theme_color(dpg.mvThemeCol_PopupBg, self._hex_to_rgba(c.card))
                 dpg.add_theme_color(dpg.mvThemeCol_Header, self._hex_to_rgba(c.fill_subtle))
                 dpg.add_theme_color(dpg.mvThemeCol_HeaderHovered, self._hex_to_rgba(c.fill_subtle_hover))

@@ -1140,7 +1140,7 @@ class FluentMenu:
 
         with dpg.theme() as menu_theme:
             with dpg.theme_component(dpg.mvAll):
-                dpg.add_theme_color(dpg.mvThemeCol_MenuBg, _hex_to_rgba(c.surface))
+                dpg.add_theme_color(dpg.mvThemeCol_MenuBarBg, _hex_to_rgba(c.surface))
                 dpg.add_theme_color(dpg.mvThemeCol_PopupBg, _hex_to_rgba(c.card))
                 dpg.add_theme_color(dpg.mvThemeCol_Header, _hex_to_rgba(c.fill_subtle_hover))
                 dpg.add_theme_color(dpg.mvThemeCol_HeaderHovered, _hex_to_rgba(c.accent))
