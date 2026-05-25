@@ -1242,7 +1242,7 @@ class FluentSplitView:
 class FluentCommandBar:
     """Command bar with action buttons."""
 
-    def __init__(self, tag: Optional[str = None, parent: Optional[Any] = None):
+    def __init__(self, tag: Optional[str] = None, parent: Optional[Any] = None):
         self.tag = tag or f"fluent_cmdbar_{id(self)}"
         c = FluentTheme().colors
 
